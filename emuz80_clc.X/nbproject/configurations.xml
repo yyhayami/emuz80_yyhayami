@@ -211,7 +211,7 @@
         <property key="memories.programmemory.ranges" value="0-1ffff"/>
         <property key="poweroptions.powerenable" value="true"/>
         <property key="programmerToGoFilePath"
-                  value="C:/Users/yyhay/MPLABXProjects/emuz80_03.X/debug/default/emuz80_02_ptg"/>
+                  value="C:/MPLABXProjects/emuz80_03.X/debug/default/emuz80_02_ptg"/>
         <property key="programmerToGoImageName" value="emuz80_02_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
