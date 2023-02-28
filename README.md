@@ -178,8 +178,8 @@ EMUBASIC:     EMUBASIC,unimon プログラム ソースフォルダ
 
 ---
 ## 変更履歴
-2022/4/25 First release
-2023/2/22 Cleaned up release
+ 2022/4/25 First release
+ 2023/2/22 Cleaned up release
 
 ## 謝辞
 PIC18FによるROM/RAM/UARTエミュレーションの効果的で優れた設計のEMUZ80を発表された電脳伝説さん
