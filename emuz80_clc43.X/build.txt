@@ -1,0 +1,14 @@
+MPLAB X v6.0  
+MCC(MPLAB Code Configurator) 5.1.17  
+XC8 v2.40
+
+ビルド手順
+1. C:\MPLABXProjectsフォルダを作成して、emuz80_clc84などのフォルダをコピーします。
+2. MPLAB X 6.0でビルドするプロジェクト(フォルダ)を選択して、プロジェクトを開きます。
+3. メニュー/Production/Clean and build projectを選択してクリーンビルドを行います。
+dist\default\productionフォルダ内に *.hex　が作成されます。
+
+異なるフォルダ内にプログラムソースフォルダをコピーしてビルドを行うためには、nproject/configurations.xmlファイルの214行目付近の"programmerToGoFilePath"のvalue値を使用フォルダへ変更します。
+
+MCCを使って　mcc_generated_filesフォルダ内のプログラムソースは変更することができるようになっています。
+4MHz版をビルドするためには、config.h 内の#define Z80_4M のコメントアウトをはずして、mcc_generated_files/nco1.c内の  NCO1INCU = 0x03 → 0x2へ変更してビルドを行います。nco1.cの変更はMCCを使って数値を設定することで変更することもできます。
