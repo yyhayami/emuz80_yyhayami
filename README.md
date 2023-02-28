@@ -4,7 +4,6 @@ EMUZ80 firmware modify by yyhayami
 電脳伝説さん(@vintagechips)の作成・発表されたPIC18FによるZ80 ROM/RAM/IOエミュレーションシステムであるEMUZ80をMCC(MPLAB Code Configurator)/CLC(Configurable Logic Cell)化して高速化したバージョンを2022年4月に作成・発表しました。
 <figure>
     <img src="imgs/emuz80_2.png" width="90%" caption="EMUZ80">
-    <figcaption>EMUZ80マイコンボード</figcaption>
 </figure>
 
 その後、
